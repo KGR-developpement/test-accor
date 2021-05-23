@@ -1,5 +1,5 @@
 const distance = (lat1, lon1, lat2, lon2) => {
-	const R = 6371e3; // metres
+	const R = 6371000; // metres
 	const φ1 = lat1 * Math.PI/180; // φ, λ in radians
 	const φ2 = lat2 * Math.PI/180;
 	const Δφ = (lat2-lat1) * Math.PI/180;
