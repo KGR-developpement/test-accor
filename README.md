@@ -9,6 +9,8 @@ Pour répondre à ce test, il est nécessaire d'avoir préalablement installé N
 
 Cloner ce projet, puis lancer *npm install* pour installer le framework de test Jest.
 
+Lancer npm run serve pour lancer le projet
+
 #### Modalités
 
 La rédaction de tests unitaires est fortement recommandée.
