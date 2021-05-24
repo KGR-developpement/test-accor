@@ -1,0 +1,134 @@
+body {
+    font-family: Arial;
+}
+.hotel {
+    border: solid 1px silver;
+    padding: 20px;
+}
+
+.hotel-details {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.hotel-image {
+    margin-right: 20px;
+    border-radius: 5px;
+    width: 40%;
+}
+
+.hotel-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column
+}
+
+.hotel-title {
+    display: flex;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 5px
+}
+
+.hotel-distance {
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 5px
+}
+
+.hotel-opinions {
+    display: flex;
+    color: grey;
+    font-size: 14px;
+    margin-bottom: 10px
+}
+
+.opinions-image {
+    margin-right: 5px;
+}
+
+.hotel-options {
+    display: flex;
+    color: grey;
+    margin-bottom: 10px
+}
+
+.hotel-price {
+    position: relative;
+    flex: 1;
+    padding: 48px 15px 15px;
+    border-radius: 5px;
+    background: #F1F1F1;
+}
+
+.price-details {
+    text-align: right;
+    font-size: 14px;
+}
+
+.price-details-1 {
+    color: grey;
+    padding-bottom: 15px;
+
+}
+
+.price-details-1 > span:nth-child(2) {
+    padding-left: 5px;
+    border-left: solid 1px;
+}
+
+.price-details-2 {
+    color: grey;
+}
+
+.price-details-2 > span:nth-child(2) {
+    color: blue;
+    padding-left: 5px;
+    border-left: solid 1px black;
+}
+
+.price-details-2 > span:nth-child(2) > b {
+    font-size: 20px;
+}
+
+
+.price-from {
+    position: absolute;
+    background: #FFF;
+    top: -15px;
+    right: 15px;
+    font-size: 12px;
+    border-radius: 20px;
+    padding: 5px 15px;
+    text-transform: uppercase;
+
+}
+.hotel-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.hotel-action > div:nth-child(1) {
+    width: 40%;
+}
+
+.hotel-action > div:nth-child(2)  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    margin-left: 20px;
+}
+
+button {
+    background-color: #32a89e;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 30px;
+    cursor: pointer;
+
+}
